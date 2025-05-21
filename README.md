@@ -1,59 +1,46 @@
-# ANGULARECOMAPP
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+<a href="#"  target="_blank"> <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" /></a>
+<a href="#"  target="_blank"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /><a/>
+<a href="#"  target="_blank"> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /></a>
 
-## Development server
+## About This Project
+This project is a simple e-commerce shopping cart app built with Angular and TypeScript. Users can add products to their cart, view cart contents, and remove items—all managed with modern Angular features. 🛒
 
-To start a local development server, run:
+The goal of this project was to get started with Angular and explore its core concepts such as component architecture, state management with services and signals, and modern template features. I focused on building a simple, functional app to practice clean code structure, reusable components, and type safety with TypeScript. 👨‍💻
 
-```bash
+## Tech stack
+<ul>
+  <li>
+    Angular
+  </li>
+   <li>
+    Typescript
+  </li>
+</ul>
+
+## Features
+<ul>
+  <li>Add products to the shopping cart</li>
+  <li>Display all items currently in the cart</li>
+  <li>Remove individual items from the cart</li>
+  <li>Empty cart state message</li>
+</ul>
+
+## Setup
+### Prerequisites
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/en)  
+- [npm](https://www.npmjs.com/)
+- [Angular CLI](https://angular.io/cli)
+
+### Installation
+```sh
+npm install -g @angular/cli
+check ng v
+```
+
+### Launch project
+
+```sh
 ng serve
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
